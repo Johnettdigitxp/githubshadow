@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         //Only useful codes used in this activity.
 
 
+        //Appcenter analytics implementation.
         AppCenter.start(getApplication(),
             "29b84e98-3617-4f34-a6b8-32dce04845bc",
             Analytics::class.java,
